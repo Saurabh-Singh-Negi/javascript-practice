@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.star-item {
+    font-size: 3rem;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.container {
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active, .hover {
+    color: #FFD700; 
+}
+
+
+
